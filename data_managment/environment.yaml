@@ -1,0 +1,11 @@
+name: mlops-sp500
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - requests
+  - pip:
+      - yfinance
+      - google-cloud-storage
